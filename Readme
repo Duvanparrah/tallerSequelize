@@ -1,0 +1,27 @@
+Sistema de Gestión de Biblioteca
+
+Desarrollar una aplicación backend para gestionar una biblioteca en línea utilizando Express y
+Sequelize. La aplicación permitirá a los usuarios registrar libros, actualizar información de libros
+existentes, y realizar préstamos. La base de datos contendrá tablas como Libros, Usuarios y
+Préstamos, donde se almacenarán datos relevantes como el título del libro, autor, año de
+publicación, disponibilidad y fecha de préstamo. Los usuarios podrán consultar el catálogo de
+libros, ver el estado de los préstamos actuales y devolver libros. Los administradores tendrán la
+capacidad de agregar nuevos libros, actualizar la información de los libros y eliminar los libros que
+ya no estén disponibles en el inventario. El sistema también generará informes sobre los libros
+más solicitados y los préstamos más recientes.
+
+instalador:
+npm install express mysql2 sequelize nodemon dotenv
+
+devolver libro (update, )
+
+lo de usuarios, administradores, hacerlo usando CRUDS.
+
+
+echo "# tallerSequelize" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Duvanparrah/tallerSequelize.git
+git push -u origin main
