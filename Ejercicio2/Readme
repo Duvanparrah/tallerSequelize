@@ -1,0 +1,27 @@
+Plataforma de Gestión de Eventos
+
+Crear una API para la gestión de eventos en una plataforma en línea utilizando Express y Sequelize.
+El sistema permitirá a los usuarios crear, actualizar y eliminar eventos, así como inscribirse en
+eventos. La base de datos almacenará información sobre los eventos, como nombre, descripción,
+fecha y hora, lugar y capacidad máxima. Los usuarios podrán consultar los eventos disponibles,
+inscribirse en ellos si hay espacio disponible, y cancelar su inscripción. Los administradores podrán
+crear y editar eventos, gestionar las inscripciones y eliminar eventos cancelados. Además, el
+sistema deberá permitir generar un informe con el número de inscripciones en cada evento y los
+eventos más populares. Las inscripciones estarán asociadas a los usuarios, y el sistema gestionará
+automáticamente la capacidad de los eventos.
+
+instalador:
+npm install express mysql2 sequelize nodemon dotenv
+
+devolver libro (update, )
+
+lo de usuarios, administradores, hacerlo usando CRUDS.
+
+
+echo "# tallerSequelize" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Duvanparrah/tallerSequelize.git
+git push -u origin main
